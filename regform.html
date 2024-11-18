@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor</title>
+    <link rel="stylesheet" href="regform.css">
+</head>
+<body class="bg-neutralOffWhite">
+    <div id="__next">
+        <div class="__variable_f46a1f __variable_72b39c font-primary" id="modal-root">
+            <div style="position: fixed; z-index: 9999; inset: 16px; pointer-events: none;"></div>
+            <a class="sr-only" href="#content"></a>
+            <div class="flex flex-col min-h-screen">
+                <header class="relative px-5 z-40">
+                    <div class="container-full flex gap-6 items-center justify-between py-4">
+                        <img src="https://www.frontendmentor.io/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&w=256&q=75">
+                        <div class="text-[0rem]">
+                            <a aria-label="Home page" href="/">
+                                <img alt="" loading="lazy" width="31" height="28" decoding="async" data-nimg="1" class="desktop:hidden" style="color:transparent" srcset="/_next/image?url=%2Fstatic%2Fimages%2Flogo-mobile.svg&amp;w=32&amp;q=75 1x, /_next/image? url=%2Fstatic%2Fimages%2Flogo-mobile.svg&amp;w=64&amp;q=75 2x" src="/_next/image?url=%2Fstatic%2Fimages%2Flogo-mobile.svg&amp;w=64&amp;q=75">
+                                <img alt="" loading="lazy" width="196" height="28" decoding="async" data-nimg="1" class="hidden desktop:block" style="color:transparent" srcset="/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=640&amp;q=75">
+                            </a>
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <nav aria-label="Primary" class="hidden tablet:block">
+                                <ul class="flex gap-4 items-center">
+                                    <li>
+                                        <a class="flex font-secondary items-center gap-2 p-0 relative whitespace-nowrap after:bg-primaryRed after:h-[2px] after:left-0 after:absolute after:w-full after:transition-transform after:transform-origin-center after:scale-x-0 font-bold italic text-sm uppercase after:bottom-[-3px] hover:after:scale-x-100" href="/learning-paths">
+                                            Learning paths
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex font-secondary items-center gap-2 p-0 relative whitespace-nowrap after:bg-primaryRed after:h-[2px] after:left-0 after:absolute after:w-full after:transition-transform after:transform-origin-center after:scale-x-0 font-bold italic text-sm uppercase after:bottom-[-3px] hover:after:scale-x-100" href="/challenges">
+                                            Challenges
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex font-secondary items-center gap-2 p-0 relative whitespace-nowrap after:bg-primaryRed after:h-[2px] after:left-0 after:absolute after:w-full after:transition-transform after:transform-origin-center after:scale-x-0 font-bold italic text-sm uppercase after:bottom-[-3px] hover:after:scale-x-100" href="/solutions">
+                                            Solutions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex font-secondary items-center gap-2 p-0 relative whitespace-nowrap after:bg-primaryRed after:h-[2px] after:left-0 after:absolute after:w-full after:transition-transform after:transform-origin-center after:scale-x-0 font-bold italic text-sm uppercase after:bottom-[-3px] hover:after:scale-x-100" href="/articles">
+                                            Articles
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="flex font-secondary items-center gap-2 p-0 relative whitespace-nowrap after:bg-primaryRed after:h-[2px] after:left-0 after:absolute after:w-full after:transition-transform after:transform-origin-center after:scale-x-0 font-bold italic text-sm uppercase after:bottom-[-3px] hover:after:scale-x-100" href="/pro">
+                                            Unlock Pro
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="border disabled:bg-neutralDarkGrey disabled:border-neutralDarkGrey flex font-bold font-secondary italic items-center justify-center px-5 text-center tracking-wider transition-colors rounded-full uppercase w-fit gap-2 whitespace-nowrap bg-neutralBlack border-neutralBlack hover:bg-neutralBlack-lighter hover:border-neutralBlack-lighter text-neutralWhite py-2 text-sm" href="https://github.com/login/oauth/authorize?client_id=f71675ff0aff88252d33&amp;scope=user:email">
+                                            Log in with GitHub
+                                            <i aria-hidden="true" class="fa-brands fa-github text-lg">
+                                            </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="tablet:hidden">
+                                <div class="tablet:relative">
+                                    <button aria-controls="header-menu" aria-expanded="false" aria-haspopup="menu" aria-label="Toggle primary navigation">
+                                        <div class="h-[26px] relative w-[34px] *:absolute *:bg-neutralBlack *:rounded *:h-[4px] *:w-full *:left-0 *:transition *:origin-center">
+                                            <div class="top-0">
+                                            </div>
+                                            <div class="top-[calc(50%-2px)]"></div>
+                                            <div class="bottom-0"></div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <main class="flex-grow" id="content">
+    <div class="bg-neutralOffWhite border-b border-neutralLightGrey border-t px-5">
+        <div class="container-full flex">
+            <span aria-hidden="true" class="border-l border-neutralLightGrey border-r flex items-center font-bold font-secondary tracking-wider px-5 py-3 uppercase">
+                Challenge
+            </span>
+        </div>
+    </div>
+    <div class="flex flex-col gap-8 px-5 py-6">
+        <div class="container-xl flex flex-col gap-8">
+            <div class="bg-neutralWhite border border-neutralLightGrey isolate relative rounded-2xl w-full flex flex-col-reverse gap-5 p-5 tablet:flex-row tablet:gap-6 tablet:items-center">
+                <div class="flex flex-col gap-5 items-start tablet:w-1/2">
+                    <div class="flex flex-wrap gap-4 items-center justify-between w-full">
+                        <div class="flex gap-4 items-center">
+                            <span class="font-secondary font-bold px-2 py-1 rounded-full text-center text-sm tracking-wider uppercase w-max leading-none flex gap-1 items-center bg-primaryLightBlue text-primaryBlue">
+                                 <!-- -->
+                                Free
+                            </span>
+                            <ul class="inline-flex gap-2 items-center">
+                                <li class="font-bold font-secondary text-primaryCyan">HTML</li>
+                                <li class="font-bold font-secondary text-primaryBlue">CSS</li>
+                                <li class="font-bold font-secondary text-primaryMagenta">JS</li>
+                            </ul>
+                        </div>
+                        <div class="border inline-flex rounded w-min border-primaryCyan">
+                            <span class="font-bold font-secondary text-neutralWhite text-sm px-2 bg-primaryCyan" color="neutralWhite">1</span>
+                            <span class="font-bold font-secondary px-2 text-sm uppercase text-primaryCyan">newbie</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-5">
+                        <h1 class="font-secondary text-xl tablet:text-2xl">Intro component with sign-up form</h1>
+                        <p class="text-neutralDarkGrey">
+                            Practice building out a sign-up form complete with client-side validation using JavaScript.
+                        </p>
+                        <button class="border disabled:bg-neutralDarkGrey disabled:border-neutralDarkGrey flex font-bold font-secondary italic items-center justify-center py-3 text-center text-base tracking-wider transition-colors rounded-full uppercase w-fit leading-none px-7 bg-primaryRed border-primaryRed hover:bg-primaryRed-darker hover:border-primaryRed-darker text-neutralWhite">
+                            Start challenge
+                        </button>
+                    </div>
+                </div>
+    <div class="flex flex-col gap-4 tablet:w-1/2">
+        <button aria-label="Open image gallery" class="aspect-[4/3] relative rounded-lg overflow-hidden">
+            <img alt="Desktop Design preview" loading="lazy" decoding="async" data-nimg="fill" class="object-cover" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/mnmpkjsbvur3xvrydf66.jpg">
+        </button>
+        <div class="flex flex-wrap gap-2">
+            <button class="font-bold font-secondary italic px-3 py-[0.125rem] rounded-full text-sm transition-colors uppercase bg-primaryBlue text-neutralWhite hover:bg-primaryBlue-darker">Desktop Design</button>
+            <button class="bg-neutralLightGrey font-bold font-secondary italic px-3 py-[0.125rem] rounded-full text-neutralDarkGrey text-sm transition-colors uppercase hover:bg-neutralLightGrey-darker">Mobile Design</button>
+        </div>
+    </div>
+</div>
+<div class="gap-5 grid grid-cols-1 tablet:grid-cols-2 tablet:grid-rows-2">
+    <div class="bg-neutralWhite border border-neutralLightGrey isolate relative rounded-2xl w-full flex flex-col gap-4 p-5 tablet:row-span-2">
+        <h2 class="font-secondary text-xl tablet:text-2xl flex gap-2">
+            <span>📝</span>
+            Brief
+        </h2>
+        <div class="flex flex-col gap-3 overflow-x-auto">
+            <p>
+                Your challenge is to build out this landing page and get it looking as close to the design as possible.
+            </p>
+                <p>
+                    You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+                </p>
+                <p>
+                    Your users should be able to:
+                </p>
+                <ul class="list-disc pl-4">
+                <li>
+                    View the optimal layout for the interface depending on their device's screen size
+                </li>
+                <li>
+                    See hover and focus states for all interactive elements on the page
+                </li>
+                <li>
+                    Receive an error message when the 
+                    <code class="bg-neutralLightGrey font-mono rounded-sm">form</code>
+                     is submitted if:
+                     <!-- -->
+                <ul class="list-disc pl-4">
+                <li>
+                    Any 
+                    <code class="bg-neutralLightGrey font-mono rounded-sm">input</code>
+                     field is empty
+                    </li>
+                <li>
+                    The email address is not formatted correctly
+                </li>
+    </ul>
+    </li>
+    </ul>
+    <p>
+        Download the starter code and go through the 
+        <code class="bg-neutralLightGrey font-mono rounded-sm">README.md</code>
+         file. This will provide further details about the project. The 
+         <code class="bg-neutralLightGrey font-mono rounded-sm">style-guide.md</code>
+          file is where you'll find colors, fonts, etc.
+        </p>
+    <p>
+        Want some support on the challenge? 
+        <a class="hover:no-underline underline" href="https://www.frontendmentor.io/community">Join our community
+        </a>
+         and ask questions in the help channel.
+        </p>
+    </div>
+</div>
+<div class="bg-neutralWhite border border-neutralLightGrey isolate relative rounded-2xl w-full flex flex-col gap-4 p-5">
+    <h2 class="font-secondary text-xl tablet:text-2xl flex gap-2">
+        <span>🗃</span>
+        Assets provided
+    </h2>
+    <ul class="flex flex-col gap-2">
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-xmark text-primaryRed">
+            </i>
+            Figma design file access
+            <!-- --> 
+            <!-- -->
+            -
+            <!-- --> 
+            <a class="font-semibold underline hover:no-underline" href="/pro">Unlock with Pro</a>
+        </li>
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-check text-primaryGreen">
+            </i>
+            JPEG design files for mobile &amp; desktop layouts
+        </li>
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-check text-primaryGreen">
+            </i>
+            Style guide for fonts, colors, etc.
+        </li>
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-check text-primaryGreen">
+            </i>
+            Optimized image assets
+        </li>
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-check text-primaryGreen">
+            </i>
+            README file to help you get started
+        </li>
+        <li class="flex gap-2 items-center">
+            <i aria-hidden="true" class="fa-solid fa-check text-primaryGreen">
+            </i>
+            HTML file with pre-written content
+        </li>
+    </ul>
+</div>
+<div class="bg-neutralWhite border border-neutralLightGrey isolate relative rounded-2xl w-full flex flex-col gap-4 p-5">
+    <h2 class="font-secondary text-xl tablet:text-2xl flex gap-2">
+        <span>💡</span>
+        Ideas to test yourself
+    </h2>
+    <div class="flex flex-col gap-3 overflow-x-auto">
+        <ol class="list-decimal pl-4">
+        <li>
+            Write your styles using a pre-processor, such as 
+            <a class="hover:no-underline underline" href="https://sass-lang.com">
+                Sass
+            </a>
+            , 
+            <a class="hover:no-underline underline" href="http://lesscss.org">
+                Less
+            </a>
+             or 
+             <a class="hover:no-underline underline" href="http://stylus-lang.com">
+                Stylus
+            </a>
+        </li>
+        <li>
+            Train your eye for detail by getting your solution as close to the design as you can
+        </li>
+        <li>
+            Train your eye for detail by getting your solution as close to the design as you can
+        </li>
+    <li>
+        Try estimating the time it will take for you to build the project. Then see if the time taken matches up to your estimate. Project estimations are a skill that is often overlooked but is essential for professional developers
+    </li>
+    </ol>
+</div>
+</div>
+</div>
+<section class="flex flex-col gap-5 w-full container-sm">
+    <h2 class="font-bold font-primary tracking-widest uppercase text-center">
+        Challenge FAQs
+    </h2>
+    <ul class="flex flex-col gap-3">
+        <li>
+            <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+                <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                    <div class="flex gap-4 items-center justify-between px-5 py-4">
+                        <span class="font-secondary font-semibold">
+                            How can I get help if I'm stuck on a challenge?</span>
+                            <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                            </i>
+                        </div>
+                    </summary>
+                    <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+                        <div class="flex flex-col gap-3 overflow-x-auto">
+                            <p>
+                                The best (and quickest) way to get help on a challenge is in our Discord server. There are thousands of other developers in there, so it's a great place to ask questions. We even have a dedicated "help" channel! If you haven't joined yet, you can 
+                                <a class="hover:no-underline underline" href="https://discord.gg/UAfh3qzhYb">
+                                    get an invite to our Discord server here
+                                </a>
+                                .
+                            </p>
+                        </div>
+    </div></details></li>
+    <li>
+        <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+            <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                <div class="flex gap-4 items-center justify-between px-5 py-4">
+                    <span class="font-secondary font-semibold">
+                        How do I submit my solution?
+                    </span>
+                    <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                    </i>
+                </div>
+            </summary>
+            <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+                <div class="flex flex-col gap-3 overflow-x-auto">
+                    <p>
+                        We'd recommend reading our 
+                        <a class="hover:no-underline underline" href="https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248">
+                            complete guide to submitting solutions
+                        </a>
+                         . If you get stuck and need help, please feel free to ask questions in our Discord server, and we'll help you submit your project.
+                        </p>
+                    </div>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+                <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                    <div class="flex gap-4 items-center justify-between px-5 py-4">
+                        <span class="font-secondary font-semibold">
+                            Is there an official solution I can take a look at?
+                        </span>
+                        <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                        </i>
+                    </div>
+                </summary>
+                <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+                    <div class="flex flex-col gap3 overflow-x-auto">
+                        <p>
+                            We don't provide "official" solutions for the challenges. This is because there is no single perfect way to complete a challenge. Instead, you're encouraged to review other people's code in the community. You can learn so much by seeing how other people have approached the same challenges and giving them feedback.
+                        </p>
+                    </div>
+                </div>
+            </details>
+        </li>
+        <li>
+            <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+                <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                    <div class="flex gap-4 items-center justify-between px-5 py-4">
+                        <span class="font-secondary font-semibold">
+                            Do I get a code review when I post my solution?
+                        </span>
+                        <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                        </i>
+    </div>
+</summary>
+<div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+    <div class="flex flex-col gap-3 overflow-x-auto">
+        <p>
+            Frontend Mentor is a collaborative learning community where everyone can give feedback to each other. If you'd like to receive feedback from the community, please be sure to post a question when you submit your solution. The more specific you can be, the better. Being clear with your questions means you're much more likely to receive valuable feedback from others.
+        </p>
+    </div>
+</div>
+</details>
+</li>
+<li>
+    <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+        <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+            <div class="flex gap-4 items-center justify-between px-5 py-4">
+                <span class="font-secondary font-semibold">
+                    Can I use libraries/frameworks on these projects?
+                </span>
+                <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                </i>
+            </div>
+        </summary>
+        <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+            <div class="flex flex-col gap-3 overflow-x-auto">
+                <p>
+                    Yes! Our challenges provide professional designs but there are no rules on what tools to use. So feel free to use anything you like to build your projects.
+                </p>
+            </div>
+        </div>
+    </details>
+</li>
+<li>
+    <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+        <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+            <div class="flex gap-4 items-center justify-between px-5 py-4">
+                <span class="font-secondary font-semibold">
+                    Can I use these projects in my portfolio?
+                </span>
+                <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                </i>
+            </div>
+        </summary>
+        <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+            <div class="flex flex-col gap-3 overflow-x-auto">
+                <p>
+                    Definitely! Please do feel free to use whatever you build in your portfolio. Helping developers add professional-looking projects to their portfolio was one of the reasons we created this platform!
+                </p>
+            </div>
+        </div>
+    </details>
+</li>
+<li>
+    <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+        <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+        <div class="flex gap-4 items-center justify-between px-5 py-4">
+            <span class="font-secondary font-semibold">
+                How often are new challenges added?
+            </span>
+            <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+            </i>
+        </div>
+    </summary>
+    <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+        <div class="flex flex-col gap-3 overflow-x-auto">
+            <p>
+                We launch a new challenge every two weeks. We alternate between free and premium challenge launches, so we launch one free and one premium challenge each month.
+            </p>
+        </div>
+    </div>
+</details>
+</li>
+<li>
+    <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+            <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                <div class="flex gap-4 items-center justify-between px-5 py-4">
+                    <span class="font-secondary font-semibold">
+                        What is the difference between the desktop-design, mobile-design, and desktop-preview images in my starter code?
+                    </span>
+                    <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                    </i>
+                </div>
+            </summary>
+            <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+                <div class="flex flex-col gap-3 overflow-x-auto">
+                    <p>
+                        The desktop-design and mobile-design images show you how the layout should look at large and small screen sizes. The desktop design is 1440px wide, and the mobile design is 375px. However, try building projects to look good on all screen sizes.The desktop-preview image is a preview image used in the README file. You don’t need to reference this while building the project.
+                    </p>
+                </div>
+            </div>
+        </details>
+    </li>
+    <li>
+        <details class="bg-neutralWhite border border-neutralLightGrey rounded-lg">
+            <summary class="cursor-pointer list-none [&amp;::-webkit-details-marker]:hidden">
+                <div class="flex gap-4 items-center justify-between px-5 py-4">
+                    <span class="font-secondary font-semibold">
+                        Can I use these challenges within my own free or commercial content/tutorials/projects?
+                    </span>
+                    <i aria-hidden="true" class="fa-solid fa-plus text-lg">
+                    </i>
+                </div>
+            </summary>
+            <div class="border-t border-neutralLightGrey px-5 py-4 text-neutralDarkGrey">
+                <div class="flex flex-col gap-3 overflow-x-auto">
+                <p>
+                    Please visit our 
+                    <a class="hover:no-underline underline" href="/license">
+                        License
+                    </a>
+                     page to learn more about how our challenges can be used within your own content. If you're unsure about anything, please feel free to contact us at 
+                     <a class="hover:no-underline underline" href="mailto:hi@frontendmentor.io">
+                        hi@frontendmentor.io
+                    </a>
+                     and we'll be more than happy to answer your questions.
+                    </p>
+                </div>
+            </div>
+        </details>
+    </li>
+</ul>
+</section>
+</div>
+<div class="bg-no-repeat bg-primaryBlue [background-image:url('/static/images/bg-discord.svg')] [background-position:top_10%_right_-4rem] container-xl flex flex-col gap-6 items-center rounded-xl px-5 py-8 text-center text-neutralWhite">
+                    <img alt="" loading="lazy" width="166" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fstatic%2Fimages%2Flogo-discord.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Flogo-discord.svg&amp;w=384&amp;q=75 2x" src="/_next/image?url=%2Fstatic%2Fimages%2Flogo-discord.svg&amp;w=384&amp;q=75">
+                    <h2 class="font-bold font-primary uppercase tracking-widest">
+                        Join our Discord community
+                    </h2>
+                    <p class="max-w-prose text-xl">
+                        Join thousands of Frontend Mentor community members taking the challenges, sharing resources, helping each other, and chatting about all things front-end!
+                    </p>
+                    <a class="border disabled:bg-neutralDarkGrey disabled:border-neutralDarkGrey flex font-bold font-secondary italic items-center justify-center px-5 py-3 text-center text-base tracking-wider transition-colors rounded-full uppercase w-fit leading-none bg-neutralWhite border-neutralWhite hover:bg-neutralWhite-darker hover:border-neutralWhite-darker text-primaryBlue" href="https://discord.gg/UAfh3qzhYb">
+                        Join our Discord
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-neutralWhite flex flex-col gap-7 pt-7">
+            <div class="px-5">
+                <div class="container-full flex flex-col gap-6 mobile:flex-row mobile:justify-between">
+                        <a href="/"><img alt="Frontend Mentor logo" loading="lazy" width="196" height="28" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fstatic%2Fimages%2Flogo-desktop.svg&amp;w=640&amp;q=75">
+                        </a>
+                        <div class="flex items-center gap-5 text-primaryCyan text-xl">
+                            <a aria-label="Join our Discord server" href="https://discord.gg/UAfh3qzhYb">
+                                <i aria-hidden="true" class="fa-brands fa-discord undefined">
+                                </i>
+                            </a>
+                            <a aria-label="Visit our Twitter page" href="https://twitter.com/frontendmentor">
+                            <i aria-hidden="true" class="fa-brands fa-twitter undefined">
+                            </i>
+                        </a>
+                        <a aria-label="Visit our LinkedIn page" href="https://www.linkedin.com/company/frontend-mentor">
+                            <i aria-hidden="true" class="fa-brands fa-linkedin undefined">
+                            </i>
+                        </a>
+                        <a aria-label="Visit our Facebook page" href="https://www.facebook.com/frontendmentor">
+                            <i aria-hidden="true" class="fa-brands fa-facebook undefined">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-5">
+                <div class="container-full flex flex-wrap flex-col gap-7 tablet:flex-row tablet:justify-between">
+                <div class="flex flex-col gap-4 max-w-[28rem] w-full">
+                    <p class="flex flex-col gap-2">
+                        <span class="font-secondary text-xl text-primaryBlue leading-normal">Stay up to date</span>
+                        <span>with new challenges, featured solutions, selected articles, and our latest news</span>
+                    </p>
+                </div>
+                <form class="text-neutralBlack w-full flex flex-col gap-4 mobile:flex-row mobile:items-start" novalidate="">
+                    <div class="flex flex-col gap-2 w-full">
+                        <label class="font-secondary font-semibold sr-only" for=":R6dp6:">
+                            Email
+                        </label>
+                        <div class="flex flex-col gap-1">
+                            <input class="bg-transparent block p-2 placeholder-neutralMidGrey rounded w-full border border-neutralLightGrey" data-1p-ignore="true" data-lpignore="true" id=":R6dp6:" name="email" placeholder="email@example.com" type="email" value="">
+                        </div>
+                    </div>
+                    <button class="border disabled:bg-neutralDarkGrey disabled:border-neutralDarkGrey flex font-bold font-secondary italic items-center justify-center px-5 py-3 text-center text-base tracking-wider transition-colors rounded-full uppercase w-fit leading-none bg-primaryRed border-primaryRed hover:bg-primaryRed-darker hover:border-primaryRed-darker text-neutralWhite">
+                        Subscribe
+                    </button>
+                </form>
+                <div class="flex flex-col gap-6 mobile:gap-6 mobile:grid mobile:grid-cols-2 tablet:flex tablet:flex-grow tablet:flex-row tablet:justify-between desktop:max-w-[50rem]">
+                    <div class="flex flex-col gap-4">
+                        <h2 class="font-bold font-primary tracking-widest uppercase">Frontend Mentor</h2>
+                        <ul class="flex flex-col gap-1 text-neutralDarkGrey">
+                            <li>
+                                <a class="hover:underline" href="/pro">Unlock Pro</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="/contact">Contact us</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="/faq">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h2 class="font-bold font-primary tracking-widest uppercase">Explore</h2>
+                        <ul class="flex flex-col gap-1 text-neutralDarkGrey">
+                            <li>
+                                <a class="hover:underline" href="/learning-paths">Learning paths</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="/challenges">Challenges</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="/solutions">Solutions</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="/articles">Articles</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h2 class="font-bold font-primary tracking-widest uppercase">Community</h2>
+                        <ul class="flex flex-col gap-1 text-neutralDarkGrey">
+                            <li>
+                                <a class="hover:underline" href="https://discord.gg/UAfh3qzhYb">Discord</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="https://medium.com/frontend-mentor/frontend-mentor-community-guidelines-44303cc38aa6">Guidelines</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <h2 class="font-bold font-primary tracking-widest uppercase">For companies</h2>
+                        <ul class="flex flex-col gap-1 text-neutralDarkGrey">
+                            <li>
+                                <a class="hover:underline" href="https://hiring.frontendmentor.io">Hire developers</a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="https://teams.frontendmentor.io">Train developers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="border-neutralLightGrey border-t px-5 py-4">
+                <div class="container-full flex flex-col flex-wrap gap-x-6 gap-y-3 text-neutralDarkGrey text-sm mobile:flex-row mobile:justify-between">
+                    <span>© Frontend Mentor 2019 - <!-- -->2024</span>
+                    <ul class="flex flex-wrap gap-x-4 gap-y-3">
+                        <li>
+                            <a class="hover:underline" href="https://www.iubenda.com/terms-and-conditions/68783624">
+                                Terms
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hover:underline" href="https://www.iubenda.com/privacy-policy/68783624/cookie-policy">
+                                Cookie Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hover:underline" href="https://www.iubenda.com/privacy-policy/68783624">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a class="hover:underline" href="/license">License</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    
+    
+
+
+
+                        </body>
